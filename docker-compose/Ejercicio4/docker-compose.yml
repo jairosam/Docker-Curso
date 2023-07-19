@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  web:
+    build: .
+    image: jairosam/web:v2
+    container_name: frontend_web
+    ports:
+      - "8080:80"
