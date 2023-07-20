@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  database:
+    image: mysql
+    restart: always
+    env_file: mysql.properties
